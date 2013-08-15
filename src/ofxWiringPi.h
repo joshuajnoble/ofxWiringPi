@@ -21,4 +21,14 @@
 #include "include/wiringShift.h"
 
 
+class ofxWiringPi {
 
+	void setupi2c() {
+		system("gpio load i2c");
+	}
+
+	~ofxWiringPi() {
+
+	}
+
+};
